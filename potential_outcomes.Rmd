@@ -87,17 +87,17 @@ population %>%
 ```
 
 **How much more/less income do males make compared to females?**
-
+female make 2076 more than male
 **On average, which ethnicity makes the most?**
-
+Asian
 **On average, which ethnicity makes the least?**
-
+White
 **Are there any significant differences in the proportion of genders?**
-
+No, basically the same
 **Are there any significant differences in the proportion of ethnicities?**
-
+Yes, black and white are much less than others
 ## Defining population potential outcomes (God-mode)
-
+Knowing the treatment effect of the experiment without doing the experiment,.
 Now that we have a population, we will generate the effects that the policy _will_ have on each individual. Since we have full knowledge and control of this population, we will know the treatment effect for each individual by defining both of their potential outcomes (with and without treatment). The researcher will _not_ know these values, it is their job to recover these values.
 
 ```{r}
